@@ -1,22 +1,19 @@
-//Program to input array and print it in reverse order
+//Reverses elements in the array.
 
-#include<stdio.h>
+#include<stdio.h>  
+  
+int main()  
+{  
+	    int a[5], i;  
+	      
+	    printf("Enter 5 integer numbers\n");  
+	    for(i = 0; i < 5; i++)  
+	    scanf("%d", &a[i]);  
+		      
+	    printf("Reversed Array elements:\n");  
+	    for(i = 4; i >= 0; i--)  
+	    printf("%d\n", a[i]);  
 
-int main(){
-
-	int arr[10];
-	int i = 0;
-	for(i=0;i<10;i++){
-		printf("Enter element of array at position %d : ",i);
-		scanf("%d",&arr[i]);
-	}
-
-	printf("\n Printing array in reverse order");
-
-	for(int i=9;i>0;i--){
-		printf("\n %d",arr[i]);
-	}
-	
-
-	return 0;
+			      
+	return 0;  
 }
