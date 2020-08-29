@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1598712485 source:c:\users\nuths\onedrive\desktop\learning-c-2020-03-23\youtube-practice-program-source-coding-files\problem-18-strings\palindromecheck\palindrome\palindrome.c
+	<stdio.h>
+	<string.h>
+
