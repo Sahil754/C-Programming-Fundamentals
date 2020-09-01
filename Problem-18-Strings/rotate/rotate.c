@@ -1,4 +1,4 @@
-/*Program prints given string rotated n number of times. E.g. abc becomes cab after one 
+/*Program prints given string rotated n number of times. E.g. abc becomes cab after one
 rotation.*/
 
 #include<stdio.h>
