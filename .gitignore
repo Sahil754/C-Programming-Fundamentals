@@ -123,8 +123,12 @@ build/
 # Up to you, but ... current advice: ignore it.
 *.xccheckout
 
-#---Removing .xcodeproj file so as to only add c file
+#---Removing .xcodeproj .pbxproj .xcworkspace .xcworkspacedata .plist files so as to only #add c file
 .xcodeproj
+.pbxproj 
+.xcworkspace 
+.xcworkspacedata 
+.plist
 #
 # OPTION 1: ---------------------------------
 #     throw away ALL personal settings (including custom schemes!
